@@ -27,11 +27,11 @@ export class TestData {
   ];
 
 
-  // не забывать - индексация приоритетов и категорий начинается с нуля
+
   static tasks: Task[] = [
     {
       id: 1,
-      title: 'Стати Техлідом',
+      title: 'Стати колись архітектором',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[9],
@@ -71,7 +71,7 @@ export class TestData {
     },
     {
       id: 6,
-      title: 'Сходить на семинар по программированию',
+      title: 'Прочитати чистий код',
       priority: TestData.priorities[1],
       completed: true,
       category: TestData.categories[2],
